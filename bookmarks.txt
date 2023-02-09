@@ -1,0 +1,6 @@
+Private Sub btnOK_Click()
+With ActiveDocument
+.Bookmarks("recipentName").Range.Text = txtRecipentName.Value
+.Bookmarks("salution").Range.Text = txtSalution.Value
+End With
+End Sub
